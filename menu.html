@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Menu</title>
+</head>
+<body>
+    <header id="main">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <div class="image-holder">
+                        <img src="pics/logo.png" alt="Website main logo">
+                    </div>
+                    <h2 class="title">MultiFood</h2>
+                </div>
+                <ul class="links">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="Menu.html"><li>Menu</li></a>
+                    <a href="reserve.html"><li>Book</li></a>
+                    <a href="Contact.html"><li>Contact</li></a>
+                    <a href="shopping.html"><li><i class="fa-solid fa-cart-shopping"></i><p>0</p></li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="main2">
+		<div class="section-title">
+            <h2>Our Menu</h2>
+        </div>
+        <div class="break-ice">
+            <img src="images/menu.jpg" alt="menu image">
+        </div>
+        <div class="Menu">
+            <div class="menu-column">
+                <h4>Breakfast :</h4>
+                <div class="single-menu" data-name="f-1">
+                    <img src="images/Breakfast1.jpg" alt="breakfast">
+                    <div class="food-content">
+                        <h5>sandwich <span>10$</span></h5>
+                        <p>Bread,Eggs and Tomatoes.</p>
+                    </div>
+                </div>
+                <div class="single-menu" data-name="f-2">
+                    <img src="images/Coffee-cake.jpg" alt="Coffee-cake">
+                    <div class="food-content">
+                        <h5>Coffee cake<span>15$</span></h5>
+                        <p>Delcouis classic Coffee cake</p>
+                    </div>
+                </div>
+                <div class="single-menu" data-name="f-3">
+                    <img src="images/panckaks.jpg" alt="pancaks">
+                    <div class="food-content">
+                        <h5>Pancaks<span>18$</span></h5>
+                        <p>Fluffy pancaks with honey</p>
+                    </div>
+                </div>
+                <div class="single-menu" data-name="f-4">
+                    <img src="images/juice.jpg" alt="juice">
+                    <div class="food-content">
+                        <h5>Orange juice<span>7$</span></h5>
+                        <p>Cold natural orange juice.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-column">
+                <h4>Launch :</h4>
+                <div class="single-menu" data-name="f-5">
+                    <img src="images/pasta.jpg" alt="pasta">
+                    <div class="food-content">
+                        <h5>Cheese Pasta<span>25$</span></h5>
+                        <p>Cream Cheese pasta sauce.</p>
+                    </div>
+                </div>
+                <div class="single-menu" data-name="f-6">
+                    <img src="images/Pizza.jpg" alt="pizza">
+                    <div class="food-content">
+                        <h5>Pizza<span>30$</span></h5>
+                        <p>Shredded cheese pizza.</p>
+                    </div>
+                </div>
+                <div class="single-menu" data-name="f-7">
+                    <img src="images/Tacos.jpg" alt="Tacos">
+                    <div class="food-content">
+                        <h5>Chicken Tacos<span>35$</span></h5>
+                        <p>delcouis Chicken Curry Tacos.</p>
+                    </div>
+                </div>
+                <div class="single-menu" data-name="f-8">
+                    <img src="images/salamon.jpg" alt="salamon">
+                    <div class="food-content">
+                        <h5>Salamon<span>55$</span></h5>
+                        <p>Dijon Baked Salmon.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-column">
+                <h4>Dinner :</h4>
+                <div class="single-menu" data-name="f-9">
+                    <img src="images/Soup.jpg" alt="vegetable soup">
+                    <div class="food-content">
+                        <h5>Vegetable soup<span>30$</span></h5>
+                        <p>hot and comforting vegetable soup.</p>
+                    </div>
+                </div>
+                <div class="single-menu" data-name="f-10">
+                    <img src="images/Chicken.jpg" alt="Chicken">
+                    <div class="food-content">
+                        <h5>Fried Chicken<span>40$</span></h5>
+                        <p>Delcouis Crispy Fried Chicken.</p>
+                    </div>
+                </div>
+                <div class="single-menu" data-name="f-11">
+                    <img src="images/fries.jpg" alt="fries">
+                    <div class="food-content">
+                        <h5>Fries<span>25$</span></h5>
+                        <p>French Fries .</p>
+                    </div>
+                </div>
+                <div class="single-menu" data-name="f-12">
+                    <img src="images/Sushi.jpg" alt="sushi">
+                    <div class="food-content">
+                        <h5>Sushi<span>60$</span></h5>
+                        <p>Sushis makis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overview-container">
+            <div class="overview-item" data-target="f-1">
+                <i class="fa-solid fa-xmark special"></i>
+                <div class="myimg">
+                    <img src="images/Breakfast1.jpg" alt="">
+                </div>
+                <div class="food-content">
+                    <h5>sandwich <span>10$</span></h5>
+                    <p>A Small 2 Pieces of Bread,Eggs and Tomatoes.</p>
+                    <ul>
+                        <strong>Made with:</strong>
+                        <li>Bread</li>
+                        <li>Tomato</li>
+                        <li>Eggs</li>
+                        <li>Salt & Pepper</li>
+                    </ul>
+                    <div class="rating">
+                        <p>Clients Rating: </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="overview-item" data-target="f-2">
+                <i class="fa-solid fa-xmark special"></i>
+                <div class="myimg">
+                    <img src="images/Coffee-cake.jpg" alt="">
+                </div>
+                <div class="food-content">
+                    <h5>Coffee cake<span>15$</span></h5>
+                    <p>Delcouis classic Coffee cake</p>
+                    <ul class="big">
+                        <div class="part">
+                            <strong>Made with: </strong>
+                            <li>plain flour</li>
+                            <li>baking powder</li>
+                            <li>coffee powder</li>
+                            <li>Eggs</li>
+                        </div>
+                        <div class="part">
+                            <li>butter</li>
+                            <li>light brown sugar</li>
+                            <li>milk</li>
+                            <li>salt</li>
+                        </div>
+                    </ul>
+                    <div class="rating">
+                        <p>Clients Rating: </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="overview-item" data-target="f-3">
+                <i class="fa-solid fa-xmark special"></i>
+                <div class="myimg">
+                    <img src="images/panckaks.jpg" alt="">
+                </div>
+                <div class="food-content">
+                    <h5>Pancaks<span>18$</span></h5>
+                    <p>Fluffy pancaks with honey</p>
+                    <ul class="big">
+                        <div class="part">
+                            <strong>Made with: </strong>
+                            <li>Flour</li>
+                            <li>baking powder</li>
+                            <li>Eggs</li>
+                        </div>
+                        <div class="part">
+                            <li>Sugar</li>
+                            <li>milk</li>
+                            <li>salt</li>
+                        </div>
+                    </ul>
+                    <div class="rating">
+                        <p>Clients Rating: </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="overview-item" data-target="f-4">
+                <i class="fa-solid fa-xmark special"></i>
+                <div class="myimg">
+                    <img src="images/juice.jpg" alt="">
+                </div>
+                <div class="food-content">
+                    <h5>Orange juice<span>7$</span></h5>
+                    <p>Cold natural orange juice.</p>
+                    <ul class="big">
+                        <div class="part">
+                            <strong>Made with: </strong>
+                            <li>3 Oranges</li>
+                            <li>Sugar</li>
+                        </div>
+                    </ul>
+                    <div class="rating">
+                        <p>Clients Rating: </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="overview-item" data-target="f-5">
+                <i class="fa-solid fa-xmark special"></i>
+                <div class="myimg">
+                    <img src="images/Pasta.jpg" alt="">
+                </div>
+                <div class="food-content">
+                    <h5>Cheese Pasta<span>25$</span></h5>
+                    <p>Cream Cheese pasta sauce.</p>
+                    <ul class="big">
+                        <div class="part">
+                            <strong>Made with: </strong>
+                            <li>Pasta</li>
+                            <li>Heavy cream</li>
+                            <li>Shredded gouda and cheddar cheese</li>
+                            <li>Grated parmesan cheese</li>
+                            <li>Salt & pepper</li>
+                        </div>
+                    </ul>
+                    <div class="rating">
+                        <p>Clients Rating: </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="overview-item" data-target="f-6">
+                <i class="fa-solid fa-xmark special"></i>
+                <div class="myimg">
+                    <img src="images/Pizza.jpg" alt="">
+                </div>
+                <div class="food-content">
+                    <h5>Pizza<span>30$</span></h5>
+                    <p>Shredded cheese pizza.</p>
+                    <ul class="big">
+                        <div class="part">
+                            <strong>Made with: </strong>
+                            <li>Flour</li>
+                            <li>Yeast</li>
+                            <li>Water</li>
+                            <li>Olive Oil</li>
+                        </div>
+                        <div class="part">
+                            <li>Olives</li>
+                            <li>Tomato sauce</li>
+                            <li>milk & Salt & Pepper</li>
+                            <li>shredded parmesan cheese</li>
+                        </div>
+                    </ul>
+                    <div class="rating">
+                        <p>Clients Rating: </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="overview-item" data-target="f-7">
+                <i class="fa-solid fa-xmark special"></i>
+                <div class="myimg">
+                    <img src="images/Tacos.jpg" alt="">
+                </div>
+                <div class="food-content">
+                    <h5>Chicken Tacos<span>35$</span></h5>
+                    <p>delcouis Chicken Curry Tacos.</p>
+                    <ul class="big">
+                        <div class="part">
+                            <strong>Made with: </strong>
+                            <li>Shredded Chicken</li>
+                            <li>Shredded Cheese</li>
+                            <li>Tomatoes</li>
+                        </div>
+                        <div class="part">
+                            <li>Onion</li>
+                            <li>Fries</li>
+                            <li>Olive Oil</li>
+                            <li>Salt & Pepper</li>
+                        </div>
+                    </ul>
+                    <div class="rating">
+                        <p>Clients Rating: </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="overview-item" data-target="f-8">
+                <i class="fa-solid fa-xmark special"></i>
+                <div class="myimg">
+                    <img src="images/Salamon.jpg" alt="">
+                </div>
+                <div class="food-content">
+                    <h5>Salamon<span>55$</span></h5>
+                    <p>Dijon Baked Salmon.</p>
+                    <ul class="big">
+                        <div class="part">
+                            <strong>Made with: </strong>
+                            <li>Fresh Salmon</li>
+                            <li>Parsley</li>
+                            <li>Olive Oil</li>
+                        </div>
+                        <div class="part">
+                            <li>Dijon mustard</li>
+                            <li>Salt & Pepper</li>
+                        </div>
+                    </ul>
+                    <div class="rating">
+                        <p>Clients Rating: </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="overview-item" data-target="f-9">
+                <i class="fa-solid fa-xmark special"></i>
+                <div class="myimg">
+                    <img src="images/Soup.jpg" alt="">
+                </div>
+                <div class="food-content">
+                    <h5>Vegetable soup<span>30$</span></h5>
+                    <p>hot and comforting vegetable soup.</p>
+                    <ul class="big">
+                        <div class="part">
+                            <strong>Made with: </strong>
+                            <li>carrots</li>
+                            <li>celery</li>
+                            <li>potatoes</li>
+                        </div>
+                        <div class="part">
+                            <li>corn</li>
+                            <li>peas</li>
+                            <li>yellow onion &  Garlic</li>
+                            <li>Salt & Pepper</li>
+                        </div>
+                    </ul>
+                    <div class="rating">
+                        <p>Clients Rating: </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="overview-item" data-target="f-10">
+                <i class="fa-solid fa-xmark special"></i>
+                <div class="myimg">
+                    <img src="images/Chicken.jpg" alt="">
+                </div>
+                <div class="food-content">
+                    <h5>Fried Chicken<span>40$</span></h5>
+                    <p>Delcouis Crispy Fried Chicken.</p>
+                    <ul class="big">
+                        <div class="part">
+                            <strong>Made with: </strong>
+                            <li>Chicken</li>
+                            <li>Flour</li>
+                            <li>paprika</li>
+                            <li>poultry seasoning</li>
+                        </div>
+                        <div class="part">
+                            <li>eggs</li>
+                            <li>Salt & Pepper</li>
+                        </div>
+                    </ul>
+                    <div class="rating">
+                        <p>Clients Rating: </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="overview-item" data-target="f-11">
+                <i class="fa-solid fa-xmark special"></i>
+                <div class="myimg">
+                    <img src="images/Fries.jpg" alt="">
+                </div>
+                <div class="food-content">
+                    <h5>Fries<span>25$</span></h5>
+                    <p>these epic fries are crispy and golden on the outside and fluffy on the inside</p>
+                    <ul class="big">
+                        <div class="part">
+                            <strong>Made with: </strong>
+                            <li>Potatoes</li>
+                            <li>Vegetable Oil</li>
+                            <li>natural Beef Flavor</li>
+                        </div>
+                    </ul>
+                    <div class="rating">
+                        <p>Clients Rating: </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="overview-item" data-target="f-12">
+                <i class="fa-solid fa-xmark special"></i>
+                <div class="myimg">
+                    <img src="images/Sushi.jpg" alt="">
+                </div>
+                <div class="food-content">
+                    <h5>Sushi<span>60$</span></h5>
+                    <p>Sushis makis.</p>
+                    <ul class="big">
+                        <div class="part">
+                            <strong>Made with: </strong>
+                            <li>sushi rice</li>
+                            <li>sheet nori seaweed</li>
+                            <li>sushi vinegar</li>
+                        </div>
+                        <div class="part">
+                            <li>tuna or Salmon or prawns</li>
+                            <li>Salt & Pepper</li>
+                        </div>
+                    </ul>
+                    <div class="rating">
+                        <p>Clients Rating: </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Add To Cart</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="logo">
+            <img src="pics/logo.png" alt="logo">
+        </div>
+        <div class="social-media">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="adr">
+            <h3 class="adres-title">Our Address</h3>
+            <p>ROLLA STREET - Dubai - United Arab Emirates</p>
+        </div>
+        <div class="coords">
+            <span>Phone: +213675360735</span>
+            <span>Email: support@MultiFood.net</span>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.413479792205!2d55.29460950000001!3d25.256672599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f433dae68197d%3A0xf9f52f9b08eb5f53!2sMULTIFOOD%20RESTAURANT%20%26%20CAFETERIA%20LLC!5e0!3m2!1sfr!2sdz!4v1683583710392!5m2!1sfr!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <span class="final">&copyMultiFood | Made By Abderrahmane, Taki & Achraf</span>
+    </footer>   
+    <script src="js/shoppingCart.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/menuOverview.js"></script>
+</body>
+</html>
